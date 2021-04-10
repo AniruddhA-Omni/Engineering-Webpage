@@ -5,33 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENGINEERING WORLD</title>
+    <link rel="stylesheet" href="d1.css">
 </head>
-<style>
-    #subject {
-    width: 100%;}
-    @media screen and (max-width: 1500px){
-        .form{
-            width:100%;
-        }
-    }
-</style>
 <body>
-    <h1>Welcome to Engineering world</h1>
-    <h3>This is the  website where u can find the almost all the books and study materials related to diiferent departments of engineering </h3>
-    <br>
-    <p>please choose the department</p>
-    <ul>
-        <li><a href='cse.html' target="_blank">COMPUTER SCIENCE ENGINEERING</a></li><BR>
-        <li><a href='ece.html' target="_blank">ELECTRONICS AND COMMUNICATION ENGINEERING</a></li><BR>
-        <li><a href='eee.html' target="_blank">ELECTRICAL AND ELECTRONICS ENGINEERING</a></li><BR>
-        <li><a href='mech.html' target="_blank">MECHANICAL ENGINEERING</a></li><BR>
-        <li><a href='civil.html' target="_blank">CIVIL ENGINEERING</a></li><BR>
-        
-    </ul>
-    <form  method="post">
-        <div class="form">
-            <textarea id="subject" name="subject" placeholder="please help us by providing useful links of engineering study materials " style="height:150px"></textarea>
-          </div>
-    </form>
+    <header>
+    <h1 id = "ti">Welcome to Engineering world</h1>
+    </header>
+    <nav>
+        <a href='cse.html' target="_blank">CSE</a>
+        <a href='ece.html' target="_blank">ECE</a>
+        <a href='eee.html' target="_blank">EEE</a>
+        <a href='mech.html' target="_blank">ME</a>
+        <a href='civil.html' target="_blank">CE</a>
+    </nav>
+    <main>
+        <section id= 't2'>
+            <h3>This is the  website where u can find the almost all useful books and study materials related to diiferent departments of engineering </h3>
+        </section>
+        <form  method="post" id = 'f1'>
+            <div class="form">
+                <textarea id="subject" name="subject" placeholder= "please help us by providing useful links of engineering study materials "></textarea>
+            </div>
+        </form>
+        <footer>
+            <a href="#">FAQ</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">&copy; 2021 | BitsForBytes</a>
+        </footer>
+    </main>
 </body>
 </html>
