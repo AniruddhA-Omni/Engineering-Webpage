@@ -60,3 +60,9 @@ ul li a:hover{
     background-color: palegreen;
     color: black;
 }
+body{
+    background-image: url("https://images.app.goo.gl/8TXRiSHWGuNVyDhD8");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
